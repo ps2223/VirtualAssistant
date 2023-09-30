@@ -59,34 +59,3 @@ if __name__ == "__main__":
             say("I'm not sure how to respond to that.")
 
                 
-        
-
-        
-
-    
-
-# Main loop
-'''while True:
-    try:
-        with sr.Microphone() as source:
-            print("Listening...")
-            hear.adjust_for_ambient_noise(source)
-            audio = hear.listen(source)
-            print("Recognizing...")
-
-        command = hear.recognize_google(audio)
-
-        print(f"You said: {command}")
-
-        process_command(command) 
-    
-
-
-    except sr.UnknownValueError:
-        say("Sorry, I couldn't understand that.")
-
-    except sr.RequestError as e:
-        say(f"Request error: {e}")
-    except KeyboardInterrupt:
-        break'''
-
