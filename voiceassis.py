@@ -1,8 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
-import os
 import webbrowser
-import openai
+
 
 
 # Initialize the speech recognizer
@@ -44,8 +43,7 @@ if __name__ == "__main__":
             if f"open {site[0]}".lower() in query.lower():
                 say (f"Opening {site[0]}")
                 webbrowser.open(site[1])
-            else:
-                say("No such website in my access.")
+            
 
 
         if "hello" in query.lower():
