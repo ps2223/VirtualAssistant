@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
         sites = [["Youtube","https://www.youtube.com"],["Instagram","https://www.instagram.com"],
                ["Google","https://www.google.com"],["facebook","https://www.facebook.com"],
-               ["twitter","https://www.twitter.com"]]
+               ["X","https://www.twitter.com"]]
         for site in sites:
             if f"open {site[0]}".lower() in query.lower():
                 say (f"Opening {site[0]}")
